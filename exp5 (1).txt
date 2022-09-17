@@ -1,0 +1,29 @@
+package pkgpackage;
+
+
+public class Package {
+
+   
+    public static void main(String[] args) {
+  
+  
+calculator obje =new calculator();
+obje.calculate();
+scientificcalculator obj1 =new scientificcalculator();
+obj1.scicalculate();
+
+
+    }
+}
+
+
+class calculator{
+   public void calculate() {
+    System.out.println("class calculator is created");
+}
+}
+class scientificcalculator{
+   public void scicalculate() {
+    System.out.println(" class scientific calculator is created");
+}
+}
